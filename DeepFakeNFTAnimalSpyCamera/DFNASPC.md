@@ -23,4 +23,8 @@ difficult....
 
 gggggg
 
+<<<<<<< HEAD
 이게 머선 129 
+=======
+woaaaaa--!!!
+>>>>>>> b8d12c5c8d8c90f30ca90d4726347823e5228141
