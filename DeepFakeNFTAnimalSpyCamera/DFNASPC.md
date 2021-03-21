@@ -25,9 +25,17 @@ difficult....
 
 gggggg
 
+이게 머선 129 
 
 woaaaaa--!!!
 
-이게 머선 129 
-
 충돌이 발생했습니다
+
+YASSSS
+
+
+210321 MEEEEEE TIMEEEEEE
+
+2021.03.21.nayoung
+
+
