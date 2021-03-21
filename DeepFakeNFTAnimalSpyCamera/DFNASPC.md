@@ -25,7 +25,6 @@ difficult....
 
 gggggg
 
-
 이게 머선 129 
 
 woaaaaa--!!!
@@ -37,4 +36,10 @@ YASSSS
 
 210321 MEEEEEE TIMEEEEEE
 
+<<<<<<< HEAD
 check : push origin main directly 
+=======
+2021.03.21.nayoung
+
+
+>>>>>>> 0cc77a59374b307d8b6e53a722a1466386469abc
