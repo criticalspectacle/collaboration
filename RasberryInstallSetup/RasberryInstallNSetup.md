@@ -1,11 +1,8 @@
 Raspberry Pi Install & Setup
 ============================
+* 준비물 : 라즈베리파이4, 5v전원, microSD카드, SD카드 리더기  
 A. 인스톨
-========================
-
-준비물 : 라즈베리파이4, 5v전원, microSD카드, SD카드 리더기
---------------------------
-
+--------
 
 1. 빈 microSD카드 컴에 연결해서 Raspberry Pi Imager 열기  
 
@@ -63,7 +60,7 @@ A. 인스톨
    <img width="400" alt="ScodeSSH02" src="https://github.com/criticalspectacle/collaboration/blob/JISU/RasberryInstallSetup/img/A_05-2.png?raw=true">
 
 
-# B1. 라즈베리 파이 로컬 셋업
+B1. 라즈베리 파이 로컬 셋업
 --------------
 1. 패스워드 바꾸기 (1. system option-> 3. Password) - 1234
 2. 와이파이 셋팅하기 (1. System option -> 1. Wireless LAN -> 연결되어 있는 wifi이름입력) 
@@ -86,8 +83,7 @@ A. 인스톨
        `$ ifconfig`  
        ssh server(3. Interface Option -> P2. SSH -> enabled (독일에 있음(원격이 되는 최소한의 조건 완성))-> 서버 열어주기
 
---------------
-# B2. 라즈베리 파이 원격 셋업
+B2. 라즈베리 파이 원격 셋업
 --------------
  Terminal 열어서 
 1. ssh 라즈베리파이 아이디+라즈베리파이 local주소  
