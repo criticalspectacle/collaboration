@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-
+Raspberry Pi Install & Setup
+============================
 A. 인스톨
 ========================
 
@@ -61,9 +61,8 @@ A. 인스톨
 
 
    <img width="400" alt="ScodeSSH02" src="https://github.com/criticalspectacle/collaboration/blob/JISU/RasberryInstallSetup/img/A_05-2.png?raw=true">
-=======
-Raspberry Pi Install & Setup
-============================
+
+
 # B1. 라즈베리 파이 로컬 셋업
 --------------
 1. 패스워드 바꾸기 (1. system option-> 3. Password) - 1234
@@ -159,6 +158,3 @@ C3. VS 코드로 라즈베리 파이에 연결하기
   + VSCode에서 ssh로 rasberryPi 연결하고 vscode에 파일 내용 변경저장시,
   + 권한 없다고 한다면, username으로 소유자를 변경해주기 
 
-
-
->>>>>>> refs/remotes/origin/main
