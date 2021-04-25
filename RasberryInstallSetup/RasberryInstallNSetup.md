@@ -1,8 +1,10 @@
 Raspberry Pi Install & Setup
 ============================
 * 준비물 : 라즈베리파이4, 5v전원, microSD카드, SD카드 리더기  
+
+
 A. 인스톨
---------
+-----------
 
 1. 빈 microSD카드 컴에 연결해서 Raspberry Pi Imager 열기  
 
