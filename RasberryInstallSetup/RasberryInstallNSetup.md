@@ -2,21 +2,35 @@
 
 준비물 : 
 
+---------------------------------------------
 1. 빈 microSD카드 컴에 연결해서 Raspberry Pi Imager 열기<br>
    <img width="166" alt="A_01" src="https://user-images.githubusercontent.com/79742001/115983230-f4982f80-a5da-11eb-8bf7-de6c77933c27.png">
 
 2. microSD카드 포멧 후 os 설치<br>
 3. (1) microSD카드 boot 파일에 ssh파일 / conf파일 추가<br>
 (2) conf 파일 이름은 wpa_supplicant.conf 로 저장하고 내용은 다음과 같이 설정<br>
-
+        
 ```javascript
-country=KR // 🔥대한민국으로 설정하는 것 중요함🔥 
-ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev 
-update_config=1 
-network={ 
- ssid="와이파이이름" 
- psk="와이파이비밀번호" 
- scan_ssid=1 
-}
+        country=KR // 🔥대한민국으로 설정하는 것 중요함🔥 
+        ctrl_interface=DIR=/var/run/wpa_supplicant
+        GROUP=netdev 
+        update_config=1 
+        network={ 
+        ssid="와이파이이름" 
+        psk="와이파이비밀번호" 
+        scan_ssid=1 
+        }
 ```
-4. 
+
+
+4. microSD카드를 라즈베리파이에 옮기고 라즈베리파이에 전원을 넣은 뒤, 무선 공유기나 라우터에 접속하여 와이파이가 연결되었는지 확인한다.<br>
+
+
+    (1) 무선 공유기, 라우터 접속은 내부 네트워크에서 [세자리.세자리.0.1] 또는 [세자리.세자리.219.1]로 접속할 수 있다.<br>
+
+    (2) 무선 공유기나 라우터에 여러 기기가 접속할 수 있기때문에 라즈베리파이 전원을 켜기전 미리 무선 연결되어 있는 기기 리스트를 확인해두는 편이 좋다.<br>
+
+    (3) os 설치 후 최초 연결된 라즈베리 파이이름은 **raspberryPI**로 설정되어 있음<br>
+
+
+5. VScode 에서 라즈베리파이에 할당된 주소로 ssh 원격 접속<br>
