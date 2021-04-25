@@ -6,12 +6,17 @@ A. 인스톨
 
 
 1. 빈 microSD카드 컴에 연결해서 Raspberry Pi Imager 열기<br>
-   RasberryInstallSetup/img/A_01.png
+   [RasberryInstallSetup/img/A_01.png](https://github.com/criticalspectacle/collaboration/blob/c721595438975ae5a3e291ec1836238f2dc0e4ca/RasberryInstallSetup/img/A_01.png)
 
 2. microSD카드 포멧 후 os 설치<br>
+   [RasberryInstallSetup/img/A_02.png](https://github.com/criticalspectacle/collaboration/blob/c721595438975ae5a3e291ec1836238f2dc0e4ca/RasberryInstallSetup/img/A_02.png)
+
 3. (1) microSD카드 boot 파일에 ssh파일 / conf파일 추가<br>
-(2) conf 파일 이름은 wpa_supplicant.conf 로 저장하고 내용은 다음과 같이 설정<br>
-        
+    [RasberryInstallSetup/img/A_03-1.png](https://github.com/criticalspectacle/collaboration/blob/c721595438975ae5a3e291ec1836238f2dc0e4ca/RasberryInstallSetup/img/A_03-1.png)
+
+    (2) conf 파일 이름은 wpa_supplicant.conf 로 저장하고 내용은 다음과 같이 설정<br>
+    
+
 ```javascript
         country=KR // 🔥대한민국으로 설정하는 것 중요함🔥 
         ctrl_interface=DIR=/var/run/wpa_supplicant
@@ -23,6 +28,9 @@ A. 인스톨
         scan_ssid=1 
         }
 ```
+<br>
+
+[RasberryInstallSetup/img/A_03-2.png](https://github.com/criticalspectacle/collaboration/blob/c721595438975ae5a3e291ec1836238f2dc0e4ca/RasberryInstallSetup/img/A_03-2.png)
 
 
 4. microSD카드를 라즈베리파이에 옮기고 라즈베리파이에 전원을 넣은 뒤, 무선 공유기나 라우터에 접속하여 와이파이가 연결되었는지 확인한다.<br>
