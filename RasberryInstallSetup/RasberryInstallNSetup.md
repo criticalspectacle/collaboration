@@ -8,4 +8,15 @@
 2. microSD카드 포멧 후 os 설치<br>
 3. (1) microSD카드 boot 파일에 ssh파일 / conf파일 추가<br>
 (2) conf 파일 이름은 wpa_supplicant.conf 로 저장하고 내용은 다음과 같이 설정<br>
+
+```javascript
+country=KR // 🔥대한민국으로 설정하는 것 중요함🔥 
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev 
+update_config=1 
+network={ 
+ ssid="와이파이이름" 
+ psk="와이파이비밀번호" 
+ scan_ssid=1 
+}
+```
 4. 
