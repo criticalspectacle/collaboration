@@ -6,7 +6,7 @@ Raspberry Pi Install & Setup
 2. 와이파이 셋팅하기 (1. System option -> 1. Wireless LAN -> 연결되어 있는 wifi이름입력) 
   https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
 
-    * 접속가능한 와이파이 체크  
+    * 접속가능한 와이파이 체크 !  
        `$ sudo iwlist wlan0 scan`
 
     * 국가 설정해주기 (5. Localisations on Options -> L4. WLAN Country → 한국으로 해줘야됨 ! 1-4 KR korea(South) )
