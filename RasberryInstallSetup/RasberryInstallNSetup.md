@@ -58,5 +58,4 @@ A. 인스톨
 
 
 
-   ![VScodeSSH02](https://github.com/criticalspectacle/collaboration/blob/JISU/RasberryInstallSetup/img/A_05-2.png?raw=true)
-   <img width="400" alt="c_3_2" src="https://github.com/criticalspectacle/collaboration/blob/JISU/RasberryInstallSetup/img/A_05-2.png?raw=true">
+   <img width="400" alt="ScodeSSH02" src="https://github.com/criticalspectacle/collaboration/blob/JISU/RasberryInstallSetup/img/A_05-2.png?raw=true">
