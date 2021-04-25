@@ -7,7 +7,7 @@ A. 인스톨
 
 1. 빈 microSD카드 컴에 연결해서 Raspberry Pi Imager 열기<br>
    ![RasberryPiImagerIcon](https://github.com/criticalspectacle/collaboration/blob/JISU/RasberryInstallSetup/img/A_01.png?raw=true)
-   <img width="400" alt="c_3_2" src="https://github.com/criticalspectacle/collaboration/blob/JISU/RasberryInstallSetup/img/A_01.png?raw=true>
+   <img width="400" alt="RasberryPiImagerIcon" src="https://github.com/criticalspectacle/collaboration/blob/JISU/RasberryInstallSetup/img/A_01.png?raw=true>
 
 2. microSD카드 포멧 후 os 설치<br>
    ![RasberryInstallSetup](https://github.com/criticalspectacle/collaboration/blob/JISU/RasberryInstallSetup/img/A_02.png?raw=true)
