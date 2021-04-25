@@ -47,7 +47,7 @@ C3. VS 코드로 라즈베리 파이에 연결하기
 * > <img width="300" alt="c_3_4" src="https://user-images.githubusercontent.com/34053864/115983393-c109d500-a5db-11eb-8cdb-8a27d9dcb449.png">
 3. piUsername@ipAdress (예.pi@192.168.0.155)치고 엔터
 4. rasberry pi의 password 입력-> 접속
-* > (참고 : vscode terminal = terminal)
-   <img width="400" alt="c_3_2" src="https://user-images.githubusercontent.com/34053864/115983392-bfd8a800-a5db-11eb-9b82-baae2620db51.png">
-> 체크 : VSCode에서 ssh로 rasberryPi 연결한 뒤에, vscode에 파일 내용 변경 시, 저장하면 권한 없다고 할 때, username으로 소유자를 변경해주기 ```$ sudo chown -R username  *```
+   * (참고 : vscode terminal = terminal)
+   * > <img width="400" alt="c_3_2" src="https://user-images.githubusercontent.com/34053864/115983392-bfd8a800-a5db-11eb-9b82-baae2620db51.png">
+  * 체크 : VSCode에서 ssh로 rasberryPi 연결한 뒤에, vscode에 파일 내용 변경 시, 저장하면 권한 없다고 할 때, username으로 소유자를 변경해주기 ```$ sudo chown -R username  *```
 
