@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+Raspberry Pi Install & Setup
+============================
 # B1. 라즈베리 파이 로컬 셋업
 --------------
 1. 패스워드 바꾸기 (1. system option-> 3. Password) - 1234
@@ -39,9 +40,7 @@
    `sudo apt update`
 4. 업그레이드  
     `sudo apt full-upgrade`
-=======
-Raspberry Pi Install & Setup
-============================
+
 
 C1. 라즈베리파이에 최신 nodejs 설치하기
 --------------------------------
@@ -97,4 +96,4 @@ C3. VS 코드로 라즈베리 파이에 연결하기
   + 권한 없다고 한다면, username으로 소유자를 변경해주기 
 
 
->>>>>>> origin/main
+
