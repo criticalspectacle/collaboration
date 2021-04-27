@@ -5,7 +5,7 @@ Raspberry Pi Install & Setup
 
 A. 인스톨
 -----------
-0. [라즈베리 software] (https://www.raspberrypi.org/software/ "라즈베리 소프트웨어 다운")에서 raspberry Pi Imager 다운
+0. [라즈베리 software](https://www.raspberrypi.org/software "라즈베리 소프트웨어 다운")에서 raspberry Pi Imager 다운
 
 1. 빈 microSD카드 컴에 연결해서 Raspberry Pi Imager 실행  
 
