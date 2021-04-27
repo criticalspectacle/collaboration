@@ -54,7 +54,27 @@ A. 인스톨
 <br>
 
 5. host name / user name 변경
-   (1) 최초 설정된 host name은 ip , user name은 raspberryPI로 되어있다.
+   
+   (1) 최초 설정된 host name은 ip , user name은 raspberryPI로 되어있다. (비번은 raspberryPI) 따라서 보안을 위해 바꿔주는 것이 좋다.
+
+   (2) 현재 host name 확인
+   ``` c
+   $ hostname
+   ```  
+
+   (3) 이전 호스트명 지우고 새로운 이름 입력하고 저장 
+   ``` c
+   $ sudo vi /etc/hostname
+   새로운 이름
+
+   $sudo vi /etc/hosts
+   새로운 이름
+   ```  
+
+   (4) 리부팅하면 새로운 hostname 으로 설정됨 (결론 : 호스트 명 변경하기 위해서는 /etc/hostname, /etc/hosts 파일을 수정)
+    ``` c
+   $ sudo reboot
+   ``` 
    
 <br>
 
